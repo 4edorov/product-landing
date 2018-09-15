@@ -1,0 +1,56 @@
+body {
+  background-color: beige;
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(75, 153, 51);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-link {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin: 0px 20px;
+}
+
+.logo-text {
+  color: rgb(215, 224, 224);
+}
+
+.logo-img {
+  width: 120px;
+  height: 50px;
+  vertical-align: middle;
+}
+
+nav {
+  display: flex;
+}
+
+.nav-link {
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+nav > a:link {
+  color: rgb(215, 224, 224);
+}
+
+nav > a:visited {
+  color: rgb(215, 224, 224);
+}
+
+.main {
+  max-width: 1000px;
+  background-color: white;
+  margin: 0 auto;
+  height: 1000px;
+}
