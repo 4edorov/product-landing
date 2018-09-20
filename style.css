@@ -95,3 +95,22 @@ input[type=submit] {
   font-size: 1.5em;
   color: rgb(215, 224, 224);
 }
+
+.features {
+  margin-top: 68px;
+  width: 800px;
+}
+
+.feature {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.feature-icon {
+  width: 120px;
+}
+
+.feature-text {
+  font-size: 1.2em;
+  flex-grow: 1;
+}
