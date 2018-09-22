@@ -2,22 +2,22 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
     <title>Mad Auto</title>
   </head>
   <body>
     <header id="header">
       <div class="logo">
-        <a href="" class="logo-link">
+        <a href="#" class="logo-link">
           <img id="header-img" class="logo-img" src="https://cdn.pixabay.com/photo/2016/05/03/20/56/car-1370165_960_720.png">
         </a>
         <h2 class="logo-text">Mad Auto Co.</h2>
       </div>
       <div>
         <nav id="nav-bar">
-          <a href="" class="nav-link"><h2>Features</h2></a>
-          <a href="" class="nav-link"><h2>Test Drive</h2></a>
-          <a href="" class="nav-link"><h2>Pricing</h2></a>
+          <a href="#features" class="nav-link"><h2>Features</h2></a>
+          <a href="#media" class="nav-link"><h2>Test Drive</h2></a>
+          <a href="#pricing" class="nav-link"><h2>Pricing</h2></a>
         </nav>
       </div>  
     </header>
@@ -30,6 +30,7 @@
             <input id="submit" type="submit" value="Get Started">
           </form>
         </div>
+        <div id="features"></div>
         <div class="features">
           <div class="feature">
             <div class="feature-icon"><img src="https://png.icons8.com/dusk/50/000000/traffic-jam.png"></div>
@@ -44,8 +45,10 @@
             <div class="feature-text">Power. Nap. Guarantee.</div>
           </div>
         </div>
+        <div id="media"></div>
         <div class="media">
-          <iframe 
+          <iframe
+            id="video" 
             width="560"
             height="315"
             src="https://www.youtube.com/embed/0NtdZNWUBik?rel=0"
@@ -54,17 +57,52 @@
             allowfullscreen>
           </iframe>
         </div>
+        <div id="pricing"></div>
         <div class="pricing">
           <div class="suggest">
+            <div class="suggest-title"><span>Blume S</span></div>
+            <div class="suggest-text">35000$</div>
+            <div class="suggest-btn-part">
+              <button class="suggest-button">
+                Select
+              </button>
+            </div>
           </div>
           <div class="suggest">
+              <div class="suggest-title"><span>Blume M</span></div>
+              <div class="suggest-text">45000$</div>
+              <div class="suggest-btn-part">
+                <button class="suggest-button">
+                  Select
+                </button>
+              </div>
           </div>
           <div class="suggest">
+              <div class="suggest-title"><span>Blume X</span></div>
+              <div class="suggest-text">
+                <span class="price-x">65000$</span>
+                <br>
+                <span>55000$</span>
+              </div>
+              <div class="suggest-btn-part">
+                <button class="suggest-button">
+                  Select
+                </button>
+              </div>
           </div>
         </div>
       </div>
     </main>
     <footer>
+      <div class="footer-line">
+        <a href="#features" class="footer-link"><h2>Features</h2></a>
+        <a href="#media" class="footer-link"><h2>Test Drive</h2></a>
+        <a href="#pricing" class="footer-link"><h2>Pricing</h2></a>
+      </div>
+      <div>
+        2018 <a href="http://4edorov.com">@4edorov</a>
+      </div>
     </footer>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
   </body>
 </html> 
